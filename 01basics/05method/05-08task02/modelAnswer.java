@@ -1,4 +1,4 @@
-public class Main {
+public class ModelAnswer {
     public static void main(String[] args) {
       String title = "お誘い";
       String address = "dummy@xxxx.com";
@@ -10,4 +10,4 @@ public class Main {
       System.out.println("件名：" + title);
       System.out.println("本文：" + text);
     }
-  }
+}

@@ -1,4 +1,4 @@
-public class Main {
+public class Main3 {
     public static void main(String[] args) {
         email("確認依頼", "aaa@example.com", "ご確認のほど，よろしくお願いいたします");
     }
