@@ -20,8 +20,6 @@ public class Main {
         h.slip();
         c.selfAid();
         c.pray(3);
-        m1.run();
-        m2.run();
         h.run();
     }
 }
