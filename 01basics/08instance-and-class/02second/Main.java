@@ -13,13 +13,11 @@ public class Main {
         m2.suffix = 'B';
 
         Cleric c = new Cleric();
-        c.name = "アサカ";
-        c.hp = 80;
-        c.mp = 5;
-        System.out.println(c.name + "は、mpが" + String.valueOf(c.pray(3)) + "回復した！");
-        c.selfAid();
+        c.name = "聖職者";
 
         h.slip();
+        c.selfAid();
+        c.pray(2);
         m1.run();
         m2.run();
         h.run();

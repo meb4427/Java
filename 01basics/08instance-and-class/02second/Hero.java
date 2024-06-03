@@ -16,12 +16,17 @@ public class Hero {
     public void slip() {
         this.hp -= 5;
         System.out.println(this.name + "は、転んだ！");
-        System.out.println("5のダメージ");
+        System.out.println("5のダメージ！");
     }
 
     public void run() {
         System.out.println(this.name + "は、逃げ出した！");
         System.out.println("GAMEOVER");
         System.out.println("最終HPは" + this.hp + "でした");
+    }
+
+    public void attack(Matango m) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'attack'");
     }
 }
