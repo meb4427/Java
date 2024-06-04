@@ -13,7 +13,7 @@ public class PoisonMatango extends Matango {
         }
     }
 
-    public PoisonMatango() {
-        super('A');
+    public PoisonMatango(char suffix) {
+        super(suffix);
     }
 }
