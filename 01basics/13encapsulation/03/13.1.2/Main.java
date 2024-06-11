@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         Hero h = new Hero();
-        King k = new King();
-        
-        k.talk(h);
+        Wizard w = new Wizard();
+
+        System.out.println((w.getWand().getName()));
+        w.getWand();
+
+        w.heal(h);
     }
-}
+}    
